@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lunard Lune</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Handjet:wght@100..900&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <main>
+        <div class="passo ativo" id="passo-0">
+            <img src="img/cenario-0.png" alt="cenario0" class="cenario0">
+            <p><b>Lunard sempre teve o sonho de chegar à lua</p>
+            <button class="btn-proximo" data-proximo="1">➜</button> 
+        </div>
+        <div class="passo" id="passo-1">
+            <img src="img/cenario-1.png" alt="cenario1" class="cenario1">
+            <p>Juntou algumas coisas e traçou a sua aventura</p>
+            <button class="btn-proximo" data-proximo="2">➜</button> 
+        </div>
+        <div class="passo" id="passo-2">
+            <p>Porém há uma questão…</p>
+            <p>O que ele pode usar para sua embarcação?</p>
+            <button class="btn-proximo" data-proximo="3">➜</button> 
+        </div>
+        <div class="passo" id="passo-3">
+            <p>1. Corpo do foguete:</p>
+            <button class="btn-proximo" data-proximo="4">Caixa de papelão grande</button> 
+            <button class="btn-proximo" data-proximo="5">Caixa de sapatos pequena</button> 
+        </div>
+        <div class="passo" id="passo-5">
+            <p>Uma caixa pequena não é capaz de comportar a Lunard...</p>
+            <p>Você perdeu!</p>
+        </div>
+        <div class="passo" id="passo-4">
+            <p>Escolha certa!</p>
+            <p>2. Estabilizadores aerodinâmicos:</p>
+            <button class="btn-proximo" data-proximo="7">Pedras pesadas</button> 
+            <button class="btn-proximo" data-proximo="6">Palitos de picolé</button> 
+        </div>
+        <div class="passo" id="passo-7">
+            <p>Pedras pesadas fariam o foguete cair...</p>
+            <p>Você perdeu!</p>
+        </div>
+        <div class="passo" id="passo-6">
+            <p>Escolha certa novamente!</p>
+            <p>3. Fonte de impulso:</p>
+            <button class="btn-proximo" data-proximo="9">Bolas de basquete</button> 
+            <button class="btn-proximo" data-proximo="8">Balões de gás hélio</button> 
+        </div>
+        <div class="passo" id="passo-9">
+            <p>Bolas de basquete não fariam o foguete subir...</p>
+            <p>Você perdeu!</p>
+        </div>
+        <div class="passo" id="passo-8">
+            <p>Parabéns, você conseguiu levar Lunard à Lua!</p>
+            <p>Você venceu!</p>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,43 @@
+body {
+    background: #f5f6e8;
+    color: black;
+    font-family: "Handjet", sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 700px;
+    margin: 0;
+    font-size: 24px;
+    border-radius: 6px;
+    font-weight: bold;
+}
+
+button {
+    background: #f5f6e8;
+    color: black;
+    font-family: "Handjet", sans-serif; 
+    font-size: 21px;
+    border: 2px solid black;
+    border-radius: 6px;
+    font-weight: bold;
+    margin-left: 3px;
+    margin-right: 3px;
+}
+
+.passo {
+    display: none;
+}
+
+.passo.ativo {
+    display: block;
+}
+
+main {
+    max-width: 90%;
+    text-align: center;
+}
+
+
+img {
+    max-width: 42%;
+}
